@@ -44,8 +44,9 @@ This one is scaled up partly because the game kind of demands it, being on a sli
 Where the original only seated six, it's common in the game to have to rescue up to eight, so
 this version is then further bumped up in size slightly to seat a pilot and eight passengers.
 
-It's almost done. It needs a paintjob, and to be stocked with campaign supplies. It flies great,
-cruising around 150kts, and it can get up to 160 with the prop pitch pulled back for maximum RPM.
+It flies great, reaching about 150kts, and it can get up to 160 with the prop pitch pulled back for maximum RPM.
+Cruise seems somewhere around 130kts, at around 82% throttle. The speed loss is pretty small,
+but there's a huge fuel savings.
 
 The nosewheel is retractable, though in my experience, retracting gear has zero effect in the game. There are
 some surfaces in the game where it matters how they are facing to the point where you can almost
@@ -58,5 +59,17 @@ and then all of a sudden, the drag/lift simulation kicks in and it whips the veh
 So, if you want a control surface, you should use an object designated for that purpose instead of trying to
 model a fin or airfoil yourself.
 
+I created a fuel computer just for this guy, which I think I will begin incorporating into other designs.
+
 The handling and performance came out much better than I expected, and this was originally going to be
 a non-combatant vehicle, but the addition of armament and radar is on the potential to-do list, now.
+
+Controls:
+The only unusual controls are the toe-brakes, which expect full-throw gamepad triggers as axes, as explained
+for the Ranger above. Also, because we are running out of buttons and axes, the flaps are operated by pushing
+in the left stick button and simultaneously pushing the up/down axis to move the flap ('throttle') lever in the plane. That way,
+you don't have to worry about accidentally bumping the flaps up and down when operating a perpendicular axis on the same stick
+(rudder for me). I put throttle and and flap gauges right in the central field of view so that you can see where they are set without
+having to move the view around.
+
+UPDATE: The Saratoga is ready for playtesting.
