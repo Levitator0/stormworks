@@ -12,9 +12,7 @@ When modeling real vehicles, they tend to come out beefier, and that's probably 
 in the game that's smaller than 1/4 cubic meter in size. So, this is a really big take on the Ford Ranger, which ends up
 more resembling something like an F150, or something. I'm fond of the Ranger because the real thing has served me very well.
 
-This one has a two-speed manual transmission with reverse and neutral. It's only 2-speed because first gear can take it
-all the way up to its top speed, at the limit of the wheel traction. The second gear ends up serving as an overdrive, to
-reduce the RPM and save fuel.
+4-speed manual transmission with reverse and neutral.
 
 It has a 4wd switch, but I haven't found a reason to turn it off. Turning it on significantly increases the top speed
 because the speed winds up limited by the tire traction. You can experiment to see if it's more fuel efficient in 2wd at lower
@@ -51,7 +49,7 @@ but there's a huge fuel savings.
 The nosewheel is retractable, though in my experience, retracting gear has zero effect in the game. There are
 some surfaces in the game where it matters how they are facing to the point where you can almost
 use them as control surfaces, but the landing gear is insignificant for drag. The retractable
-nosewheel is left in for looks and for fun. On a closely related not, I wanted to implement pitch control
+nosewheel is left in for looks and for fun. On a closely related note, I wanted to implement pitch control
 as a stabilator, like the real thing, but it seems that the aerodynamic simulation for voxel objects is
 not detailed enough for that purpose. It is implemented to some extent, but as far as I can tell it
 seems like they optimized it so that user-defined objects have a huge dead-zone, where they do nothing in a certain range,
@@ -76,8 +74,13 @@ UPDATE: The Saratoga is ready for playtesting.
 
 # OH-6 Cayuse/Loach
 I decided that the Cayuse would make an ideal game campaign vehicle due to its small size, low cost, versatility, and abiltiy to land anywhere.
-This model came out pretty close-looking.
+This model came out pretty close-looking. Seating is for a pilot and nine passengers, five on the interior, and four perched outside by the skids and
+door. Basically, I think this is going to be the smallest and most efficient VTOL rescue vehicle you could come up with, which does everything
+except firefighting.
 
 Takeoff is at about 4000rpm and 70% collective. Acceptable cruise can be accomplished at about 3000rpm, which adds about 5mins of endurance. As I said, it's a tiny helicopter, so it winds up with a pretty small flight envelope. If you reved it higher, it would wreck your fuel economy, and if you rev it lower, the cyclic is ineffective. Endurance is roughly 25-30mins. 50-70L fuel/min.
 
 I initially had huge control problems which wound up boiling down to over-control and excessive power and collective, which are all easy to overdo given the power output of the turbine and the tiny size of the helicopter, weighing in at about a half ton. Once that was nailed down, it was easy to fix subtler problems, like CG issues, and the handling came out great. If you have problems with pitch control, your climb rate is probably excessive due to a high collective setting.
+
+TODO: The real thing is a versatile weapons platform, and this model could accept a variety of equivalent options. Also, I'm curious to see what happens
+if you put piston engine in this.
