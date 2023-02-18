@@ -76,14 +76,8 @@ UPDATE: The Saratoga is ready for playtesting.
 
 # OH-6 Cayuse/Loach
 I decided that the Cayuse would make an ideal game campaign vehicle due to its small size, low cost, versatility, and abiltiy to land anywhere.
-This model came out pretty close-looking. The handling is quite difficult, and it requires persistent, deliberate, and precise tension on the sticks to push it past the air resistance because it will whip around and sideslip easily, so, you have to heave it against the airflow without overcontrolling and making the problem worse. I don't think this problem can be much avoided without relying on the gryros, and they are going to produce stable but very sluggish and pokey handling that I'm not interested in. It handles quite acceptably once you get used to really paying attention to the stick positions, and you can't just knock the sticks around to full throw and expect to keep control.
+This model came out pretty close-looking.
 
-It's pretty much designed to operate at 2000 turbine RPM right now. I need to find out what that is at the rotor head. As I said, it's a tiny helicopter, so it winds up with a pretty small flight envelope. If you reved it higher, it would wreck your fuel economy, and if you rev it lower, the cyclic is ineffective.
+Takeoff is at about 4000rpm and 70% collective. Acceptable cruise can be accomplished at about 3000rpm, which adds about 5mins of endurance. As I said, it's a tiny helicopter, so it winds up with a pretty small flight envelope. If you reved it higher, it would wreck your fuel economy, and if you rev it lower, the cyclic is ineffective. Endurance is roughly 25-30mins. 50-70L fuel/min.
 
-It's almost done, and I just need to finish the main display so that is shows the engine status, air speed, and altitude. Currently concerned with improving the fuel economy, as it seems to burn about 250L per 5km. There might be something that can be done with the rotor gearing.
-
-
-
-
-
-
+I initially had huge control problems which wound up boiling down to over-control and excessive power and collective, which are all easy to overdo given the power output of the turbine and the tiny size of the helicopter, weighing in at about a half ton. Once that was nailed down, it was easy to fix subtler problems, like CG issues, and the handling came out great. If you have problems with pitch control, your climb rate is probably excessive due to a high collective setting.
