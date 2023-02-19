@@ -78,9 +78,14 @@ This model came out pretty close-looking. Seating is for a pilot and nine passen
 door. Basically, I think this is going to be the smallest and most efficient VTOL rescue vehicle you could come up with, which does everything
 except firefighting.
 
-Takeoff is at about 4000rpm and 70% collective. Acceptable cruise can be accomplished at about 3000rpm, which adds about 5mins of endurance. As I said, it's a tiny helicopter, so it winds up with a pretty small flight envelope. If you reved it higher, it would wreck your fuel economy, and if you rev it lower, the cyclic is ineffective. Endurance is roughly 25-30mins. 50-70L fuel/min.
+Takeoff is at about 4000rpm and 70% collective. Acceptable cruise can be accomplished at about 3000rpm, which adds some endurance. It has a fuel computer which tells you the fuel endurance, and if it's accurate, then you get like two hours from the dual fuel tanks. If you really have that much duration, I might remove a tank later, since the fuselage is just about packed full already. I don't know what else to add since this thing already has the kitchen sink. I wound up gearing the turbine way, way, down and the efficiency gains are huge, plus it spools up really slowly like the real thing.
+
+I just added an anunciator panel for battery, fuel, RPM, and temp alarms.
 
 I initially had huge control problems which wound up boiling down to over-control and excessive power and collective, which are all easy to overdo given the power output of the turbine and the tiny size of the helicopter, weighing in at about a half ton. Once that was nailed down, it was easy to fix subtler problems, like CG issues, and the handling came out great. If you have problems with pitch control, your climb rate is probably excessive due to a high collective setting.
 
-TODO: The real thing is a versatile weapons platform, and this model could accept a variety of equivalent options. Also, I'm curious to see what happens
-if you put piston engine in this.
+TODO: The real thing is a versatile weapons platform, and this model could accept a variety of equivalent options.
+
+I did try a piston prototype using a medium standard engine, and it works really well. However, it totally messes up the CG and it would require a lot of work rearranging all of the innards. So, if I played and encountered a terrible jet fuel shortage, I might mess with that idea. I like the authenticity of the turbine, though, since that's how the real thing works.
+
+
