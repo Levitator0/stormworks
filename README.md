@@ -83,11 +83,29 @@ weapons. I don't know what else to add since this thing already has the kitchen 
 
 I just added an anunciator panel for battery, fuel, RPM, and temp alarms.
 
+Added position-hold and a rescue winch so that a single pilot can perform ocean rescues without landing, and without assistance. The winch has the annoying quirk that sometimes it won't fall off the ledge under the door, so let out some slack so that it's laying on the ledge, and then bump it with your feet to tip it over the lip. Then, get into it, and when you lower it further, you should go over and down. There are two harnesses and the brighter orange shade harness is the one that provides the controls to raise and lower the winch. Might make sense to add remote radio control to the winch, in case you fall off.
+
+The position-hold is also a bit quirky. It seems to work most of the time, and especially if you are close to stationary when you engage it. When you turn it on, it stores the current 3D position and heading and attempts to maintain it. One strategy is to click it on, let it decelerate and stabilize you, and then click it off and on again, so that it doesn't try to laboriously drift back to where you first engaged it. It usually works, but I have seen it abruptly fail and let the helicopter drift off. I would love to figure out what causes that, since it seems improbable for it to work perfectly and then suddenly just give up holding the helicopter in place. It doesn't happen often enough that I've been able to pin it down. Also, keep in mind that it's a tiny helicopter which is CG-sensitive, so don't jostle it excessively moving around in it, or when placing passengers. I thought about leaving the rudder neutral on the theory that permitting the helicopter to weathervane minimizes the effort required of the cyclic, but unfortunately, what actually happens, is that it produces oscillation which results in circling and unpredictable drifting, so we lock the heading in place.
+
 I initially had huge control problems which wound up boiling down to over-control and excessive power and collective, which are all easy to overdo given the power output of the turbine and the tiny size of the helicopter, weighing in at about a half ton. Once that was nailed down, it was easy to fix subtler problems, like CG issues, and the handling came out great. If you have problems with pitch control, your climb rate is probably excessive due to a high collective setting.
 
 Added dual side-mounted light autocannons at 1000rds with HE and incendiary, and 32 rockets in underslung rocket pods. Also, a crosshair and ammo counters.
 TODO: Includes making the hardpoints more modular and flexible, and adding a means to release unneeded weapon pods.
 
 I did try a piston prototype using a medium standard engine, and it works really well. However, it totally messes up the CG and it would require a lot of work rearranging all of the innards. So, if I played and encountered a terrible jet fuel shortage, I might mess with that idea. I like the authenticity of the turbine, though, since that's how the real thing works.
+
+# Prospector
+
+I modified the Ranger for use as a mining rig after finding that the unloading sites are ground-level. Then I went to deliver my gold ore and found that you need a crane to deposit the dirt into the processing machine. So, this might be a dead end.
+
+# Semi truck
+
+The semi-truck is coming together surprisingly quickly and is almost done. It has a medium-scale 3x3 4cyl modular engine which produces huge amounts of power and, 
+from the stats I've seen, has efficiency comparable to the medium standard engine. It should be suitable for hauling trains of shipping containers, maybe two or three at a time, and maybe for recovering or repositioning train cars, or as a tug along a dock. 
+
+The main application I have in mind, though, is to make a second attempt at the mining truck. I think I will make a version that replaces the fifth wheel with a mining rig including an ore storage bucket, and a crane for dumping the gold ore way up in the processing machine. The effort savings of hauling massive quantities all at once is attractive.
+
+
+
 
 
