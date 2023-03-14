@@ -70,7 +70,7 @@ you don't have to worry about accidentally bumping the flaps up and down when op
 (rudder for me). I put throttle and and flap gauges right in the central field of view so that you can see where they are set without
 having to move the view around.
 
-Just shortened the empennage slightly, which was spurred by finding it too long to spawn in a small-sized hangar. I think it looks better shorter anyway. To fit the small hangars, it was further necessary to then create a clip-wing variant without flaps. The roll control is quite poor, and even worse at high speed, but it makes a far better cruising machine than the Loach because the handling is way more stable than a helicopter, the cruise speed is much higher, plus the fuel is cheaper.
+Just shortened the empennage slightly, which was spurred by finding it too long to spawn in a small-sized hangar. I think it looks better shorter anyway. To fit the small hangars, it was further necessary to then create a clip-wing variant without flaps. The roll control is quite poor, and even worse at high speed, but it makes a far better cruising machine than the Loach because the handling is way more stable than a helicopter, the cruise speed is much higher, plus the fuel is cheaper. Also, had to make the main landing gear super stubby, without shock absorbers, the retract for the nose wheel was removed, and it had to be mounted on a piston that extends when the plane spawns to raise the prop above the pavement. It only just barely fit.
 
 # OH-6 Cayuse/Loach
 I decided that the Cayuse would make an ideal game campaign vehicle due to its small size, low cost, versatility, and abiltiy to land anywhere.
