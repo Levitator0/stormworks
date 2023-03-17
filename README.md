@@ -105,3 +105,11 @@ The semi-truck is done and it works really well. It runs a bit hot despite an ex
 # Fuel barge
 
 Just a basic barge with a simple hull and a curved bow, holding 20 large-sized fluid tanks divided into two compartments, intended for making combind supply runs for both diesel and jet fuel. It has dolly wheels so that it can be spawned on land and towed into the water behind an amphibian like the APC in the collection.
+
+
+# Hummelbird
+
+Added a model of the Hummelbird. The real thing is about the smallest fully functional single-place fixed-wing piston prop GA aircraft to be found, and I'm really happy with this reproduction. As usual, it tends to come out a bit bigger because there is only so small that you can make the pilot's seat and cockpit. The performance and handling came out great, and the controls are very stable. Haven't figured out the range yet, but it's probably pretty good, since it's driven by a standard small engine fed with a single large fuel tank. Cruise is over 120knots, or somewhat more than the real thing. It seems to have the usual bad habits of an authentic tail-dragger on the ground. Beware of ground loops. It can be helpful to apply back-pressure on the stick in order to place pressure on the tail wheel, so that it will steer. There is a considerable nose-over tendency on the ground. There is no need for differential braking on such a tiny plane, when the tail wheel will turn it around on a dime. The up/down axis is used as a proportional brake applied to all of the wheels, in addition to the usual parking brake. The proportional brake should be applied very sparingly with plenty of back-stick to avoid nose-overs. Also, it's good to carry some throttle into the landing so that the drag on the wheels doesn't cause a nose-over either.
+
+
+
