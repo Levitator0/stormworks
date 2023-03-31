@@ -119,3 +119,10 @@ Anyway, the cannons are fed by 400rds in drums, and there is room for an additio
 
 I did attempt a gun interrupter so that the guns could be mounted converged on infinity on either side of the nose, firing through the propeller arc, but when you do the math at 2400 prop RPM, one game tick is more than 180 degrees of rotation, so there is no reliable way to time the guns.
 
+# F16
+
+This is a nimble single-engine jet fighter which was going to be modeled on the F16. However, I'm putting campaign functionality before cosmetic considerations, and there's just no in-game justification for the huge air scoop under the belly of the real thing, so this comes out a bit sleeker and simpler looking without that. I have read that you can sometimes wind up with far more efficiency and top speed by adding turbofan propulsion, because of quirks in how the jet thrust compares, so if I wind up adding that, then that might justify the addition of a big air scoop to house the fan.
+
+Armament is twin nose-mounted light autocannons converged at infinity, and wing hard points which are populated with 48x in rocket pods by default. I ended up building this guy because I wanted a fast plane for strafing the AI armada early in the game, and missiles are just too expensive for that purpose. Small-scale AA missiles cost somewhere around $1600 apiece and are probably not enough take down a ship or boat, so by the time you were done sinking five ships, you would be out $16,000 in missiles, and there are simply better ways to invest that money early in the game.
+
+The wheelbase on the landing gear is quite narrow, so turns on the ground should be completed at a low speed.
