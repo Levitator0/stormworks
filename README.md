@@ -62,6 +62,16 @@ I created a fuel computer just for this guy, which I think I will begin incorpor
 The handling and performance came out much better than I expected, and this was originally going to be
 a non-combatant vehicle, but the addition of armament and radar is on the potential to-do list, now.
 
+I added a V2 variant of the Saratoga which replaces the standard medium engine with a modular engine which is less
+powerful and more marginal for cooling, but far more efficient. It also adds a hydrofoil and floats near the nose,
+which make the plane amphibious and permit takeoffs from the water.
+
+Added an amphibious tanker variant with twelve internal large tanks. It handles quite poorly, and it's probably a good idea
+do ditch the cannons and ammo when doing supply or trade runs. Takeoff from the water is doable, but tricky.
+Come up to maximum speed at about 20% prop pitch, skimming the water, with the nose up just enough to keep the prop 
+out of the water, storing momentum in the propeller. Then, jam the pitch lever forward to convert the energy stored
+in the prop into thrust, and you have just enough power to pull free from the drag in the water, and take off.
+
 Controls:
 The only unusual controls are the toe-brakes, which expect full-throw gamepad triggers as axes, as explained
 for the Ranger above. Also, because we are running out of buttons and axes, the flaps are operated by pushing
